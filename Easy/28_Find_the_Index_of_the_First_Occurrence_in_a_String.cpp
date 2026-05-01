@@ -5,9 +5,6 @@ public:
             if(haystack.substr(i, needle.length())==needle){
                 return i;
             }
-            else{
-                i++;
-            }
         }
         return -1;
     }
